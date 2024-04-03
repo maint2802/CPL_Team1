@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.done{
+  color: #888;
+  text-decoration: line-through;
+}
+
+.del-btn{
+  display: none;
+}
+
+.todo-item:hover .del-btn{
+  display: inline;
+}
+.active{
+  background-color: beige;
+}
